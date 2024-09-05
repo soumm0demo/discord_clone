@@ -553,3 +553,954 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.-left-\[5\%\] {
+  left: -5%;
+}
+
+.-right-\[5\%\] {
+  right: -5%;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.top-auto {
+  top: auto;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.-ml-\[12rem\] {
+  margin-left: -12rem;
+}
+
+.-mr-\[10rem\] {
+  margin-right: -10rem;
+}
+
+.-mt-1 {
+  margin-top: -0.25rem;
+}
+
+.-mt-\[1\.5rem\] {
+  margin-top: -1.5rem;
+}
+
+.ml-28 {
+  margin-left: 7rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-\[\.10rem\] {
+  height: .10rem;
+}
+
+.h-\[555px\] {
+  height: 555px;
+}
+
+.h-\[675px\] {
+  height: 675px;
+}
+
+.h-\[72px\] {
+  height: 72px;
+}
+
+.w-\[30\%\] {
+  width: 30%;
+}
+
+.w-\[85\%\] {
+  width: 85%;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.max-w-\[1200px\] {
+  max-width: 1200px;
+}
+
+.max-w-\[1250px\] {
+  max-width: 1250px;
+}
+
+.max-w-\[350px\] {
+  max-width: 350px;
+}
+
+.max-w-\[400px\] {
+  max-width: 400px;
+}
+
+.max-w-\[500px\] {
+  max-width: 500px;
+}
+
+.max-w-\[775px\] {
+  max-width: 775px;
+}
+
+.max-w-\[900px\] {
+  max-width: 900px;
+}
+
+.scale-x-125 {
+  --tw-scale-x: 1.25;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-x-10 {
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
+}
+
+.gap-x-6 {
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+}
+
+.gap-x-\[12rem\] {
+  -moz-column-gap: 12rem;
+       column-gap: 12rem;
+}
+
+.gap-x-\[8rem\] {
+  -moz-column-gap: 8rem;
+       column-gap: 8rem;
+}
+
+.gap-y-3 {
+  row-gap: 0.75rem;
+}
+
+.gap-y-6 {
+  row-gap: 1.5rem;
+}
+
+.gap-y-8 {
+  row-gap: 2rem;
+}
+
+.space-x-10 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.bg-\[\#23272a\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(35 39 42 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#404EED\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(64 78 237 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#5865f2\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(88 101 242 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#f6f6f6\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(246 246 246 / var(--tw-bg-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-blue-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pr-32 {
+  padding-right: 8rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pt-24 {
+  padding-top: 6rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-\[\.9rem\] {
+  font-size: .9rem;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
+}
+
+.text-\[2rem\] {
+  font-size: 2rem;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-\[45px\] {
+  font-size: 45px;
+}
+
+.text-\[56px\] {
+  font-size: 56px;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-\[1000\] {
+  font-weight: 1000;
+}
+
+.font-\[400\] {
+  font-weight: 400;
+}
+
+.font-\[500\] {
+  font-weight: 500;
+}
+
+.font-\[600\] {
+  font-weight: 600;
+}
+
+.font-\[900\] {
+  font-weight: 900;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.leading-9 {
+  line-height: 2.25rem;
+}
+
+.leading-\[1\.1\] {
+  line-height: 1.1;
+}
+
+.leading-\[1\.2\] {
+  line-height: 1.2;
+}
+
+.leading-\[1\.5\] {
+  line-height: 1.5;
+}
+
+.leading-\[1\.6\] {
+  line-height: 1.6;
+}
+
+.leading-\[26px\] {
+  line-height: 26px;
+}
+
+.leading-\[32px\] {
+  line-height: 32px;
+}
+
+.leading-\[35px\] {
+  line-height: 35px;
+}
+
+.text-\[\#5865f2\] {
+  --tw-text-opacity: 1;
+  color: rgb(88 101 242 / var(--tw-text-opacity));
+}
+
+.text-\[\#fff\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-200 {
+  transition-duration: 200ms;
+}
+
+@font-face {
+  font-family: Whitney;
+
+  font-weight: 300;
+
+  src: url(fonts/Whitney/Whitney-300.woff) format("woff");
+}
+
+@font-face {
+  font-family: Whitney;
+
+  font-weight: 400;
+
+  src: url(fonts/Whitney/Whitney-400.woff) format("woff");
+}
+
+@font-face {
+  font-family: Whitney;
+
+  font-weight: 500;
+
+  src: url(fonts/Whitney/Whitney-500.woff) format("woff");
+}
+
+@font-face {
+  font-family: Whitney;
+
+  font-weight: 600;
+
+  src: url(fonts/Whitney/Whitney-600.woff) format("woff");
+}
+
+@font-face {
+  font-family: Whitney;
+
+  font-weight: 700;
+
+  src: url(fonts/Whitney/Whitney-700.woff) format("woff");
+}
+
+/***************/
+
+/*    Ginto    */
+
+/***************/
+
+@font-face {
+  font-family: Ginto;
+
+  font-weight: 300;
+
+  src: url(fonts/Ginto/Ginto-300.woff) format("woff");
+}
+
+@font-face {
+  font-family: Ginto;
+
+  font-weight: 400;
+
+  src: url(fonts/Ginto/Ginto-400.woff) format("woff");
+}
+
+@font-face {
+  font-family: Ginto;
+
+  font-weight: 500;
+
+  src: url(fonts/Ginto/Ginto-500.woff) format("woff");
+}
+
+@font-face {
+  font-family: Ginto;
+
+  src: url(fonts/Ginto/Ginto-600.woff) format("woff");
+
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Ginto;
+
+  font-weight: 700;
+
+  src: url(fonts/Ginto/Ginto-700.woff) format("woff");
+}
+
+/****************/
+
+/* Ginto-Italic */
+
+/****************/
+
+@font-face {
+  font-family: Ginto;
+
+  font-weight: 300;
+
+  font-style: italic;
+
+  src: url(fonts/Ginto/Ginto-300-italic.woff) format("woff");
+}
+
+@font-face {
+  font-family: Ginto;
+
+  font-weight: 400;
+
+  font-style: italic;
+
+  src: url(fonts/Ginto/Ginto-400-italic.woff) format("woff");
+}
+
+@font-face {
+  font-family: Ginto;
+
+  font-weight: 500;
+
+  font-style: italic;
+
+  src: url(fonts/Ginto/Ginto-500-italic.woff) format("woff");
+}
+
+@font-face {
+  font-family: Ginto;
+
+  font-weight: 600;
+
+  font-style: italic;
+
+  src: url(fonts/Ginto/Ginto-600-italic.woff) format("woff");
+}
+
+@font-face {
+  font-family: Ginto;
+
+  font-weight: 700;
+
+  font-style: italic;
+
+  src: url(fonts/Ginto/Ginto-700-italic.woff) format("woff");
+}
+
+/**************/
+
+/* Ginto-Nord */
+
+/**************/
+
+@font-face {
+  font-family: GintoNord;
+
+  font-weight: 500;
+
+  src: url(fonts/Ginto-Nord/Ginto-Nord-500.woff2) format("woff2"),
+      url(fonts/Ginto-Nord/Ginto-Nord-500.woff) format("woff");
+}
+
+@font-face {
+  font-family: GintoNord;
+
+  font-weight: 600;
+
+  src: url(fonts/Ginto-Nord/Ginto-Nord-600.woff2) format("woff2"),
+      url(fonts/Ginto-Nord/Ginto-Nord-600.woff) format("woff");
+}
+
+@font-face {
+  font-family: GintoNord;
+
+  font-weight: 700;
+
+  src: url(fonts/Ginto-Nord/Ginto-Nord-700.woff2) format("woff2"),
+      url(fonts/Ginto-Nord/Ginto-Nord-700.woff) format("woff");
+}
+
+/***************/
+
+/*   gg sans   */
+
+/***************/
+
+@font-face {
+  font-family: "ggSans";
+
+  font-weight: 400;
+
+  src: url(fonts/gg-sans/ggsans-Normal.ttf);
+}
+
+@font-face {
+  font-family: "ggSans";
+
+  font-weight: 500;
+
+  src: url(fonts/gg-sans/ggsans-Medium.ttf);
+}
+
+@font-face {
+  font-family: "ggSans";
+
+  font-weight: 600;
+
+  src: url(fonts/gg-sans/ggsans-Semibold.ttf);
+}
+
+@font-face {
+  font-family: "ggSans";
+
+  font-weight: 700;
+
+  src: url(fonts/gg-sans/ggsans-Bold.ttf);
+}
+
+@font-face {
+  font-family: Whitney;
+
+  font-weight: 300;
+
+  src: url(fonts/Whitney/Whitney-300.woff) format("woff");
+}
+
+@font-face {
+  font-family: Whitney;
+
+  font-weight: 400;
+
+  src: url(fonts/Whitney/Whitney-400.woff) format("woff");
+}
+
+@font-face {
+  font-family: Whitney;
+
+  font-weight: 500;
+
+  src: url(fonts/Whitney/Whitney-500.woff) format("woff");
+}
+
+@font-face {
+  font-family: Whitney;
+
+  font-weight: 600;
+
+  src: url(fonts/Whitney/Whitney-600.woff) format("woff");
+}
+
+@font-face {
+  font-family: Whitney;
+
+  font-weight: 700;
+
+  src: url(fonts/Whitney/Whitney-700.woff) format("woff");
+}
+
+/***************/
+
+/*    Ginto    */
+
+/***************/
+
+@font-face {
+  font-family: Ginto;
+
+  font-weight: 300;
+
+  src: url(fonts/Ginto/Ginto-300.woff) format("woff");
+}
+
+@font-face {
+  font-family: Ginto;
+
+  font-weight: 400;
+
+  src: url(fonts/Ginto/Ginto-400.woff) format("woff");
+}
+
+@font-face {
+  font-family: Ginto;
+
+  font-weight: 500;
+
+  src: url(fonts/Ginto/Ginto-500.woff) format("woff");
+}
+
+@font-face {
+  font-family: Ginto;
+
+  src: url(fonts/Ginto/Ginto-600.woff) format("woff");
+
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Ginto;
+
+  font-weight: 700;
+
+  src: url(fonts/Ginto/Ginto-700.woff) format("woff");
+}
+
+/****************/
+
+/* Ginto-Italic */
+
+/****************/
+
+@font-face {
+  font-family: Ginto;
+
+  font-weight: 300;
+
+  font-style: italic;
+
+  src: url(fonts/Ginto/Ginto-300-italic.woff) format("woff");
+}
+
+@font-face {
+  font-family: Ginto;
+
+  font-weight: 400;
+
+  font-style: italic;
+
+  src: url(fonts/Ginto/Ginto-400-italic.woff) format("woff");
+}
+
+@font-face {
+  font-family: Ginto;
+
+  font-weight: 500;
+
+  font-style: italic;
+
+  src: url(fonts/Ginto/Ginto-500-italic.woff) format("woff");
+}
+
+@font-face {
+  font-family: Ginto;
+
+  font-weight: 600;
+
+  font-style: italic;
+
+  src: url(fonts/Ginto/Ginto-600-italic.woff) format("woff");
+}
+
+@font-face {
+  font-family: Ginto;
+
+  font-weight: 700;
+
+  font-style: italic;
+
+  src: url(fonts/Ginto/Ginto-700-italic.woff) format("woff");
+}
+
+/**************/
+
+/* Ginto-Nord */
+
+/**************/
+
+@font-face {
+  font-family: GintoNord;
+
+  font-weight: 500;
+
+  src: url(fonts/Ginto-Nord/Ginto-Nord-500.woff2) format("woff2"),
+      url(fonts/Ginto-Nord/Ginto-Nord-500.woff) format("woff");
+}
+
+@font-face {
+  font-family: GintoNord;
+
+  font-weight: 600;
+
+  src: url(fonts/Ginto-Nord/Ginto-Nord-600.woff2) format("woff2"),
+      url(fonts/Ginto-Nord/Ginto-Nord-600.woff) format("woff");
+}
+
+@font-face {
+  font-family: GintoNord;
+
+  font-weight: 700;
+
+  src: url(fonts/Ginto-Nord/Ginto-Nord-700.woff2) format("woff2"),
+      url(fonts/Ginto-Nord/Ginto-Nord-700.woff) format("woff");
+}
+
+/***************/
+
+/*   gg sans   */
+
+/***************/
+
+@font-face {
+  font-family: "ggSans";
+
+  font-weight: 400;
+
+  src: url(fonts/gg-sans/ggsans-Normal.ttf);
+}
+
+@font-face {
+  font-family: "ggSans";
+
+  font-weight: 500;
+
+  src: url(fonts/gg-sans/ggsans-Medium.ttf);
+}
+
+@font-face {
+  font-family: "ggSans";
+
+  font-weight: 600;
+
+  src: url(fonts/gg-sans/ggsans-Semibold.ttf);
+}
+
+@font-face {
+  font-family: "ggSans";
+
+  font-weight: 700;
+
+  src: url(fonts/gg-sans/ggsans-Bold.ttf);
+}
+
+.hover\:scale-105:hover {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:bg-\[\#8d94e2\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(141 148 226 / var(--tw-bg-opacity));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
+@media (min-width: 768px) {
+  .md\:w-\[70\%\] {
+    width: 70%;
+  }
+
+  .md\:text-\[20px\] {
+    font-size: 20px;
+  }
+
+  .md\:leading-\[32\.5px\] {
+    line-height: 32.5px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:w-\[90\%\] {
+    width: 90%;
+  }
+
+  .xl\:self-center {
+    align-self: center;
+  }
+
+  .xl\:text-center {
+    text-align: center;
+  }
+}
